@@ -49,7 +49,7 @@ namespace SW_Metrices
         {
             float Di = getData(Data_communicatio_cmbx) + getData(Data_Processing_cmbx) + getData(Performance_Criteria_cmbx) +
                 getData(Heavly_Hardware_cmbx) + getData(HighTransRate_cmbx) + getData(OnlineData_cmbx) + getData(OnlineUpdating_cmbx) +
-                getData(EndUserEfficiency_cmbx) + getData(ComplexCputations_cmbx) + getData(Reusability) + getData(EaseOfOperation_cmbx) +
+                getData(EndUserEfficiency_cmbx) + getData(ComplexCputations_cmbx) + getData(Reusability) +getData(EaseOfInstallation_cmbx)+ getData(EaseOfOperation_cmbx) +
                 getData(Portability_cmbx) + getData(Maintinabilty_cmbx);
              TCF = 0.65f +( 0.01f * Di);
             label2.Text = TCF.ToString();

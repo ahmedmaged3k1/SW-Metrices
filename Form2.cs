@@ -181,7 +181,7 @@ namespace SW_Metrices
                 
 
             }
-            Console.WriteLine(result.ToString());
+            //Console.WriteLine(result.ToString());
 
 
             return result;
